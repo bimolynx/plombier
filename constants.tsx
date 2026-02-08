@@ -12,10 +12,10 @@ export const ARTISAN_INFO = {
 };
 
 export const REASSURANCE_ITEMS = [
-  { icon: <ShieldCheck className="w-6 h-6 text-green" />, label: "Artisan local de confiance" },
-  { icon: <FileText className="w-6 h-6 text-green" />, label: "Devis gratuit & Transparent" },
-  { icon: <Clock className="w-6 h-6 text-green" />, label: "Intervention rapide 24h/24" },
-  { icon: <ThumbsUp className="w-6 h-6 text-green" />, label: "Travail soigné & Garanti" }
+  { icon: <ShieldCheck className="w-6 h-6 text-lightgreen" />, label: "Artisan local de confiance" },
+  { icon: <FileText className="w-6 h-6 text-lightgreen" />, label: "Devis gratuit & Transparent" },
+  { icon: <Clock className="w-6 h-6 text-lightgreen" />, label: "Intervention rapide 24h/24" },
+  { icon: <ThumbsUp className="w-6 h-6 text-lightgreen" />, label: "Travail soigné & Garanti" }
 ];
 
 export const SERVICES: Service[] = [
