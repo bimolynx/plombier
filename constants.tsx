@@ -8,7 +8,7 @@ export const ARTISAN_INFO = {
   phoneHref: "tel:+33663261734",
   address: "304 Rue de Joigny, 73490 La Ravoire",
   locality: "La Ravoire",
-  googleMapsUrl: "<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2793.895051577937!2d5.9635456!3d45.5524367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478baed3db1ed5f9%3A0xae7fd35e517047d4!2s304%20Rue%20de%20Joigny%2C%2073490%20La%20Ravoire!5e0!3m2!1sfr!2sfr!4v1770643488155!5m2!1sfr!2sfr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
+  googleMapsUrl: "https://www.google.com/maps/place/304+Rue+de+Joigny,+73490+La+Ravoire/@45.5524367,5.9635456,17z/data=!3m1!4b1!4m6!3m5!1s0x478baed3db1ed5f9:0xae7fd35e517047d4!8m2!3d45.5524367!4d5.9635456!16s%2Fg%2F11sv88z4m7?authuser=0&entry=ttu&g_ep=EgoyMDI2MDIwNC4wIKXMDSoASAFQAw%3D%3D"
 };
 
 export const REASSURANCE_ITEMS = [
