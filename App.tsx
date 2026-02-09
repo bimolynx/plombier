@@ -213,7 +213,7 @@ const App: React.FC = () => {
               </div>
             </div>
             <a 
-              href="https://www.google.com/search?sa=X&sca_esv=75ec5d1badd44e05&hl=fr-FR&sxsrf=ANbL-n525s7cqWhWX2UUsPneYcY6hMd4Rg:1770580118596&q=Bg2m+plomberie+Avis&rflfq=1&num=20&stick=H4sIAAAAAAAAAONgkxI2NTEwMDQwtTCzMDU3sDA2NjK12MDI-IpR2CndKFehICc_Nym1KDNVwbEss3gRKzZRABdcvXJGAAAA&rldimm=5400105868570833258&tbm=lcl&ved=2ahUKEwiWmY_41MqSAxWbRKQEHdACICkQ9fQKegQISBAG&cshid=1770580123271962&biw=2560&bih=1279&dpr=1#lkt=LocalPoiReviews" 
+              href="https://www.google.com/maps/place/CYP+Plomberie/@45.5520529,5.9638032,8z/data=!4m17!1m8!3m7!1s0x27271009c3a46225:0x13a97322a3a52361!2sCYP+Plomberie!8m2!3d45.5520529!4d5.9638032!10e1!16s%2Fg%2F11yv6y0kdm!3m7!1s0x27271009c3a46225:0x13a97322a3a52361!8m2!3d45.5520529!4d5.9638032!9m1!1b1!16s%2Fg%2F11yv6y0kdm?authuser=0&hl=fr&entry=ttu&g_ep=EgoyMDI2MDIwNC4wIKXMDSoASAFQAw%3D%3D" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-blue-200 hover:text-white transition-colors underline decoration-blue-700"
