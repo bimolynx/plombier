@@ -3,18 +3,18 @@ import { ShieldCheck, Clock, FileText, ThumbsUp } from 'lucide-react';
 import { Service, Review, Achievement } from './types';
 
 export const ARTISAN_INFO = {
-  name: "Bg2m Plomberie",
-  phone: "06 34 17 10 45",
-  phoneHref: "tel:+33634171045",
-  address: "11 bis rue des Marguerites, 91600 Savigny-sur-Orge",
-  locality: "Savigny-sur-Orge",
-  googleMapsUrl: "https://www.google.com/maps/search/11+bis+rue+des+Marguerites,+91600+Savigny-sur-Orge"
+  name: "CYP Plomberie",
+  phone: "06 63 26 17 34",
+  phoneHref: "tel:+33663261734",
+  address: "304 Rue de Joigny, 73490 La Ravoire",
+  locality: "La Ravoire",
+  googleMapsUrl: "https://maps.app.goo.gl/T1oXGsNkRzVWBzrC6"
 };
 
 export const REASSURANCE_ITEMS = [
   { icon: <ShieldCheck className="w-6 h-6 text-lightgreen" />, label: "Artisan local de confiance" },
   { icon: <FileText className="w-6 h-6 text-lightgreen" />, label: "Devis gratuit & Transparent" },
-  { icon: <Clock className="w-6 h-6 text-lightgreen" />, label: "Intervention rapide 24h/24" },
+  { icon: <Clock className="w-6 h-6 text-lightgreen" />, label: "Intervention rapide" },
   { icon: <ThumbsUp className="w-6 h-6 text-lightgreen" />, label: "Travail soigné & Garanti" }
 ];
 
@@ -22,7 +22,7 @@ export const SERVICES: Service[] = [
   {
     id: 'depannage',
     title: 'Dépannage plomberie',
-    description: 'Intervention d\'urgence 24h/24 pour tous vos problèmes de robinetterie, sanitaires bouchés ou fuites soudaines. Nous intervenons rapidement avec tout le matériel nécessaire pour sécuriser vos installations.',
+    description: 'Intervention d\'urgence 8h/18H pour tous vos problèmes de robinetterie, sanitaires bouchés ou fuites soudaines. Nous intervenons rapidement avec tout le matériel nécessaire pour sécuriser vos installations.',
     image: 'https://abc-plomberie-13.fr/wp-content/uploads/2016/07/depannage-plombier-marseille.jpg'
   },
   {
@@ -54,38 +54,38 @@ export const SERVICES: Service[] = [
 export const REVIEWS: Review[] = [
   {
     id: '1',
-    author: 'M. Lefebvre',
+    author: 'V. Jahan',
     rating: 5,
-    text: 'Intervention très rapide pour une fuite importante un samedi. Artisan très professionnel et honnête sur les tarifs.',
-    date: 'Il y a 2 semaines'
+    text: 'Sérieux et professionnel.',
+    date: 'Il y a 1 semaines'
   },
   {
     id: '2',
-    author: 'Julie D.',
+    author: 'Rayo Bg.',
     rating: 5,
-    text: 'Travail impeccable pour le changement de mon chauffe-eau. Chantier propre et explications claires.',
-    date: 'Il y a 1 mois'
+    text: 'Un plombier efficace et agréable. Ravie de son travail qui n a pas été une mince affaire avec nos problèmes d arrivée d eau et de tuyauterie, Merci à lui je le recommande fortement.',
+    date: 'Il y a 1 semaine'
   },
   {
     id: '3',
-    author: 'Thomas R.',
+    author: 'Elsa.F',
     rating: 5,
-    text: 'Le meilleur plombier de Savigny. Sympathique, ponctuel et efficace. Je recommande sans hésiter !',
-    date: 'Il y a 3 jours'
+    text: 'Un plombier exceptionnel, autant humainement que professionnellement. Cyprien est intervenu au sein de notre association pour femmes victimes de violences avec une grande bienveillance, discrétion et efficacité. Le travail réalisé était impeccable et son attitude irréprochable. C’est rare de rencontrer des professionnels aussi engagés, respectueux et sensibles au contexte dans lequel ils interviennent. Un immense merci à Cyprien.',
+    date: 'Il y a 1 semaine'
   },
   {
     id: '4',
-    author: 'Marc V.',
+    author: 'Daisy B.',
     rating: 5,
-    text: "Super réactivité ! Appelé à 22h pour une fuite d'eau, le plombier était là en 30 min. Travail impeccable et prix très correct.",
+    text: "Professionnel très réactif ! Tout était parfait.",
     date: 'Il y a 1 semaine'
   },
   {
     id: '5',
-    author: 'Sophie L.',
+    author: 'Christine.',
     rating: 5,
-    text: "Professionnel sérieux et ponctuel. Il a rénové ma salle de bain de A à Z. Le résultat dépasse mes attentes.",
-    date: 'Il y a 2 mois'
+    text: "Nous avons fait appel à Cyprien suite à la panne de notre PAC et à la surdité du professionnel qui venait de réviser notre équipement.  Il est intervenu très rapidement et a réglé le problème aussitôt.  Très compétent, sérieux et agréable,  ce jeune homme va très vite être débordé ! Nous le recommandons vivement et le remercions pour sa gentillesse et son professionnalisme.",
+    date: 'Il y a 1 semaine'
   }
 ];
 
