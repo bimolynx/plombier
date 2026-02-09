@@ -67,7 +67,7 @@ const App: React.FC = () => {
             <button onClick={() => scrollToSection('avis')} className="hover:text-blue-600 transition-colors">Avis</button>
             <button onClick={() => scrollToSection('gallerie')} className="hover:text-blue-600 transition-colors">Réalisations</button>
             <a href={ARTISAN_INFO.phoneHref} className="bg-blue-600 text-white px-5 py-2 rounded-full flex items-center gap-2 hover:bg-blue-700 transition-all">
-              <Phone className="w-4 h-4" /> {0663261734}
+              <Phone className="w-4 h-4" /> {ARTISAN_INFO.phone}
             </a>
           </nav>
 
@@ -83,7 +83,7 @@ const App: React.FC = () => {
             <button onClick={() => scrollToSection('avis')} className="text-lg font-medium text-left">Avis Clients</button>
             <button onClick={() => scrollToSection('devis')} className="text-lg font-medium text-blue-600 text-left">Demander un Devis</button>
             <a href={ARTISAN_INFO.phoneHref} className="w-full py-4 bg-blue-600 text-white rounded-xl text-center font-bold flex items-center justify-center gap-2">
-              <Phone className="w-5 h-5" /> Appeler le {0663261734}
+              <Phone className="w-5 h-5" /> Appeler le {ARTISAN_INFO.phone}
             </a>
           </div>
         )}
@@ -107,7 +107,7 @@ const App: React.FC = () => {
               Lundi au Samedi 8h 18h
             </div>
             <h1 className="text-4xl md:text-6xl font-black text-blue-900 leading-tight mb-6">
-              Votre plombier de confiance à <span className="text-blue-600">Savigny-sur-Orge</span>
+              Votre plombier de confiance à <span className="text-blue-600">Annecy et alentours</span>
             </h1>
             <p className="text-lg md:text-xl text-gray-700 mb-10 leading-relaxed">
               Intervention rapide, tarifs transparents et travail soigné par un artisan local passionné. Plus de 10 ans d'expérience à votre service.
@@ -135,7 +135,7 @@ const App: React.FC = () => {
                 <div className="flex text-yellow-400">
                   {[1,2,3,4,5].map(i => <Star key={i} className="w-3 h-3 fill-current" />)}
                 </div>
-                <p className="text-xs font-bold text-gray-800">4.9/5 • 150+ avis Google vérifiés</p>
+                <p className="text-xs font-bold text-gray-800">4.9/5 • avis Google vérifiés</p>
               </div>
             </div>
           </div>
@@ -209,7 +209,7 @@ const App: React.FC = () => {
                 <div className="flex text-yellow-400">
                   {[1,2,3,4,5].map(i => <Star key={i} className="w-5 h-5 fill-current" />)}
                 </div>
-                <span className="font-bold">Note de 5/5 sur Google</span>
+                <span className="font-bold">Note de 4.9/5 sur Google</span>
               </div>
             </div>
             <a 
@@ -301,12 +301,12 @@ const App: React.FC = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
               <h2 className="text-3xl md:text-4xl font-black text-blue-900 mb-8 leading-tight">
-                Pourquoi choisir <span className="text-blue-600">Bg2m Plomberie</span> ?
+                Pourquoi choisir <span className="text-blue-600">CYP Plomberie</span> ?
               </h2>
               
               <div className="space-y-6">
                 {[
-                  { title: "Proximité Géographique", desc: "Basés à Savigny-sur-Orge, nous arrivons chez vous en un temps record." },
+                  { title: "Proximité Géographique", desc: "Basés à Annecy, nous arrivons chez vous en un temps record." },
                   { title: "Relation Humaine", desc: "Un interlocuteur unique qui connaît vos installations et votre historique." },
                   { title: "Conseils Honnêtes", desc: "Nous ne réparons que ce qui est nécessaire, sans frais cachés." },
                   { title: "Transparence des Tarifs", desc: "Devis validé avant chaque intervention pour une sérénité totale." }
@@ -338,7 +338,7 @@ const App: React.FC = () => {
                  </Button>
                </a>
                <p className="text-center mt-6 text-sm text-gray-400">
-                 Intervention 7j/7 - 24h/24
+                 Intervention 6j/7 - 8h/18h
                </p>
             </div>
           </div>
@@ -441,7 +441,7 @@ const App: React.FC = () => {
                     <a href={ARTISAN_INFO.phoneHref} className="text-2xl font-black text-white hover:text-blue-400 transition-colors">
                       {ARTISAN_INFO.phone}
                     </a>
-                    <p className="text-gray-400 mt-1">Intervention urgente 24h/24</p>
+                    <p className="text-gray-400 mt-1">Intervention urgente</p>
                   </div>
                 </div>
 
@@ -459,14 +459,14 @@ const App: React.FC = () => {
 
             <div className="h-[400px] rounded-3xl overflow-hidden shadow-2xl border-4 border-gray-800">
               <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10526.434771037617!2d2.345678!3d48.678912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e5e3f4e1f2a3b1%3A0x1234567890abcdef!2sSavigny-sur-Orge%2C%20France!5e0!3m2!1sfr!2sfr!4v1234567890123" 
+                src="https://maps.app.goo.gl/YK2vnMeYytSWMSuu9" 
                 width="100%" 
                 height="100%" 
                 style={{ border: 0 }} 
                 allowFullScreen={false} 
                 loading="lazy" 
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Localisation de Bg2m Plomberie à Savigny-sur-Orge"
+                title="Localisation de CYP Plomberie à Annecy"
               ></iframe>
             </div>
           </div>
@@ -477,11 +477,11 @@ const App: React.FC = () => {
                 <ShieldCheck className="text-white w-5 h-5" />
               </div>
               <span className="text-lg font-extrabold tracking-tight">
-                BG2M <span className="text-blue-600 font-normal">Plomberie</span>
+                CYP <span className="text-blue-600 font-normal">Plomberie</span>
               </span>
             </div>
             <p className="text-gray-500 text-sm">
-              © {new Date().getFullYear()} Bg2m Plomberie. Tous droits réservés. Mentions Légales.
+              © {new Date().getFullYear()} CYP Plomberie. Tous droits réservés. Mentions Légales.
             </p>
           </div>
         </div>
