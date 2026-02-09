@@ -58,7 +58,7 @@ const App: React.FC = () => {
               <ShieldCheck className="text-white w-6 h-6" />
             </div>
             <span className="text-xl font-extrabold text-blue-900 tracking-tight">
-              BG2M <span className="text-blue-600 font-normal">Plomberie</span>
+              CYP <span className="text-blue-600 font-normal">Plomberie</span>
             </span>
           </div>
           
@@ -67,7 +67,7 @@ const App: React.FC = () => {
             <button onClick={() => scrollToSection('avis')} className="hover:text-blue-600 transition-colors">Avis</button>
             <button onClick={() => scrollToSection('gallerie')} className="hover:text-blue-600 transition-colors">Réalisations</button>
             <a href={ARTISAN_INFO.phoneHref} className="bg-blue-600 text-white px-5 py-2 rounded-full flex items-center gap-2 hover:bg-blue-700 transition-all">
-              <Phone className="w-4 h-4" /> {ARTISAN_INFO.phone}
+              <Phone className="w-4 h-4" /> {0663261734}
             </a>
           </nav>
 
@@ -83,7 +83,7 @@ const App: React.FC = () => {
             <button onClick={() => scrollToSection('avis')} className="text-lg font-medium text-left">Avis Clients</button>
             <button onClick={() => scrollToSection('devis')} className="text-lg font-medium text-blue-600 text-left">Demander un Devis</button>
             <a href={ARTISAN_INFO.phoneHref} className="w-full py-4 bg-blue-600 text-white rounded-xl text-center font-bold flex items-center justify-center gap-2">
-              <Phone className="w-5 h-5" /> Appeler le {ARTISAN_INFO.phone}
+              <Phone className="w-5 h-5" /> Appeler le {0663261734}
             </a>
           </div>
         )}
@@ -102,9 +102,9 @@ const App: React.FC = () => {
         
         <div className="relative z-10 max-w-7xl mx-auto">
           <div className="max-w-2xl animate-in slide-in-from-left-8 duration-700">
-            <div className="inline-flex items-center gap-2 px-3 py-1 bg-red-500 text-black-700 rounded-full text-sm font-semibold mb-6 border border-white-100">
-              <span className="flex h-2 w-2 rounded-full bg-white-600 animate-pulse"></span>
-              Disponible 24h/24 sauf le dimanche
+            <div className="inline-flex items-center gap-2 px-3 py-1 bg-white-300 text-black-700 rounded-full text-sm font-semibold mb-6 border border-white-100">
+              <span className="flex h-2 w-2 rounded-full bg-blue-500 animate-pulse"></span>
+              Lundi au Samedi 8h 18h
             </div>
             <h1 className="text-4xl md:text-6xl font-black text-blue-900 leading-tight mb-6">
               Votre plombier de confiance à <span className="text-blue-600">Savigny-sur-Orge</span>
