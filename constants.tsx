@@ -3,12 +3,12 @@ import { ShieldCheck, Clock, FileText, ThumbsUp } from 'lucide-react';
 import { Service, Review, Achievement } from './types';
 
 export const ARTISAN_INFO = {
-  name: "CYP Plomberie",
-  phone: "06 63 26 17 34",
-  phoneHref: "tel:+33663261734",
-  address: "304 Rue de Joigny, 73490 La Ravoire",
-  locality: "La Ravoire",
-  googleMapsUrl: "https://www.google.com/maps/place/304+Rue+de+Joigny,+73490+La+Ravoire/@45.5524367,5.9635456,17z/data=!3m1!4b1!4m6!3m5!1s0x478baed3db1ed5f9:0xae7fd35e517047d4!8m2!3d45.5524367!4d5.9635456!16s%2Fg%2F11sv88z4m7?authuser=0&entry=ttu&g_ep=EgoyMDI2MDIwNC4wIKXMDSoASAFQAw%3D%3D"
+  name: "Haute Savoie Plomberie",
+  phone: "07 72 31 12 17",
+  phoneHref: "tel:+33772311217",
+  address: "287 Rte des Creuses, 74600 Annecy",
+  locality: "Annecy",
+  googleMapsUrl: "https://www.google.com/maps/place/Haute-Savoie+Plomberie/@0,0,10z/data=!4m7!3m6!1s0x1953c92eef2dfff:0x75788139c2a5135f!8m2!3d46.044944!4d6.4246654!10e5!16s%2Fg%2F11xvfwt915?authuser=0&hl=fr&entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D"
 };
 
 export const REASSURANCE_ITEMS = [
