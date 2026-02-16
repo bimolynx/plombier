@@ -481,7 +481,7 @@ const App: React.FC = () => {
               </span>
             </div>
             <p className="text-gray-500 text-sm">
-              © {new Date().getFullYear()} CYP Plomberie. Tous droits réservés. Mentions Légales.
+              © {new Date().getFullYear()} Haute SavoiePlomberie by Arthur Ballandras. Tous droits réservés. Mentions Légales.
             </p>
           </div>
         </div>
