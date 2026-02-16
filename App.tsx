@@ -58,7 +58,7 @@ const App: React.FC = () => {
               <ShieldCheck className="text-white w-6 h-6" />
             </div>
             <span className="text-xl font-extrabold text-blue-900 tracking-tight">
-              CYP <span className="text-blue-600 font-normal">Plomberie</span>
+              HSP <span className="text-blue-600 font-normal">Plomberie</span>
             </span>
           </div>
           
@@ -104,13 +104,13 @@ const App: React.FC = () => {
           <div className="max-w-2xl animate-in slide-in-from-left-8 duration-700">
             <div className="inline-flex items-center gap-2 px-3 py-1 bg-white-300 text-black-700 rounded-full text-sm font-semibold mb-6 border border-white-100">
               <span className="flex h-2 w-2 rounded-full bg-blue-500 animate-pulse"></span>
-              Lundi au Samedi 8h 18h
+              Lundi au Samedi 8h 20h
             </div>
             <h1 className="text-4xl md:text-6xl font-black text-blue-900 leading-tight mb-6">
               Votre plombier de confiance à <span className="text-blue-600">Annecy et alentours</span>
             </h1>
             <p className="text-lg md:text-xl text-gray-700 mb-10 leading-relaxed">
-              Intervention rapide, tarifs transparents et travail soigné par un artisan local passionné. Plus de 10 ans d'expérience à votre service.
+              Intervention rapide, tarifs transparents et travail soigné par un artisan local passionné. Plus de 2 ans d'expérience à votre service.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
@@ -301,7 +301,7 @@ const App: React.FC = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
               <h2 className="text-3xl md:text-4xl font-black text-blue-900 mb-8 leading-tight">
-                Pourquoi choisir <span className="text-blue-600">CYP Plomberie</span> ?
+                Pourquoi choisir <span className="text-blue-600">Haute Savoie Plomberie</span> ?
               </h2>
               
               <div className="space-y-6">
@@ -338,7 +338,7 @@ const App: React.FC = () => {
                  </Button>
                </a>
                <p className="text-center mt-6 text-sm text-gray-400">
-                 Intervention 6j/7 - 8h/18h
+                 Intervention 6j/7 - 8h/20h
                </p>
             </div>
           </div>
@@ -451,7 +451,7 @@ const App: React.FC = () => {
                   </div>
                   <div>
                     <h4 className="font-bold text-lg mb-1">Email</h4>
-                    <p className="text-gray-400">contact@bg2m-plomberie.fr</p>
+                    <p className="text-gray-400">contact@hsplomberie.fr</p>
                   </div>
                 </div>
               </div>
@@ -477,7 +477,7 @@ const App: React.FC = () => {
                 <ShieldCheck className="text-white w-5 h-5" />
               </div>
               <span className="text-lg font-extrabold tracking-tight">
-                CYP <span className="text-blue-600 font-normal">Plomberie</span>
+                HSP <span className="text-blue-600 font-normal">Plomberie</span>
               </span>
             </div>
             <p className="text-gray-500 text-sm">
