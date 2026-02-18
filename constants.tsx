@@ -3,12 +3,12 @@ import { ShieldCheck, Clock, FileText, ThumbsUp } from 'lucide-react';
 import { Service, Review, Achievement } from './types';
 
 export const ARTISAN_INFO = {
-  name: "Haute Savoie Plomberie",
-  phone: "07 72 31 12 17",
-  phoneHref: "tel:+33772311217",
-  address: "287 Rte des Creuses, 74600 Annecy",
-  locality: "Annecy",
-  googleMapsUrl: "https://www.google.com/maps/place/Haute-Savoie+Plomberie/@0,0,10z/data=!4m7!3m6!1s0x1953c92eef2dfff:0x75788139c2a5135f!8m2!3d46.044944!4d6.4246654!10e5!16s%2Fg%2F11xvfwt915?authuser=0&hl=fr&entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D"
+  name: "LC 74 Plomberie",
+  phone: "06 68 58 66 22",
+  phoneHref: "tel:+33668586622",
+  address: "74250 Fillinges",
+  locality: "Fillinges et alentours",
+  googleMapsUrl: "https://www.google.com/maps/place/LC+74+plomberie/@0.0010259,0,0z/data=!4m16!1m9!3m8!1s0x478c73c865e89057:0xea747ae5921322d5!2sLC+74+plomberie!8m2!3d46.1433856!4d6.3877805!9m1!1b1!16s%2Fg%2F11j0ng_fyy!3m5!1s0x478c73c865e89057:0xea747ae5921322d5!8m2!3d46.1433856!4d6.3877805!16s%2Fg%2F11j0ng_fyy?authuser=0&hl=fr&entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D"
 };
 
 export const REASSURANCE_ITEMS = [
