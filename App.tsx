@@ -58,7 +58,7 @@ const App: React.FC = () => {
               <ShieldCheck className="text-white w-6 h-6" />
             </div>
             <span className="text-xl font-extrabold text-blue-900 tracking-tight">
-              HSP <span className="text-blue-600 font-normal">Plomberie</span>
+              LC74 <span className="text-blue-600 font-normal">Plomberie</span>
             </span>
           </div>
           
@@ -104,13 +104,13 @@ const App: React.FC = () => {
           <div className="max-w-2xl animate-in slide-in-from-left-8 duration-700">
             <div className="inline-flex items-center gap-2 px-3 py-1 bg-white-300 text-black-700 rounded-full text-sm font-semibold mb-6 border border-white-100">
               <span className="flex h-2 w-2 rounded-full bg-blue-500 animate-pulse"></span>
-              Lundi au Samedi 8h 20h
+              Lundi au Samedi 7h 21h
             </div>
             <h1 className="text-4xl md:text-6xl font-black text-blue-900 leading-tight mb-6">
-              Votre plombier de confiance à <span className="text-blue-600">Annecy et alentours</span>
+              Votre plombier de confiance à <span className="text-blue-600">Fillinges et alentours</span>
             </h1>
             <p className="text-lg md:text-xl text-gray-700 mb-10 leading-relaxed">
-              Intervention rapide, tarifs transparents et travail soigné par un artisan local passionné. Plus de 2 ans d'expérience à votre service.
+              Intervention rapide, tarifs transparents et travail soigné par un artisan local passionné. Plus de 8 ans d'expérience à votre service.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
@@ -135,7 +135,7 @@ const App: React.FC = () => {
                 <div className="flex text-yellow-400">
                   {[1,2,3,4,5].map(i => <Star key={i} className="w-3 h-3 fill-current" />)}
                 </div>
-                <p className="text-xs font-bold text-gray-800">4.9/5 • avis Google vérifiés</p>
+                <p className="text-xs font-bold text-gray-800">5/5 • avis Google vérifiés</p>
               </div>
             </div>
           </div>
@@ -301,7 +301,7 @@ const App: React.FC = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
               <h2 className="text-3xl md:text-4xl font-black text-blue-900 mb-8 leading-tight">
-                Pourquoi choisir <span className="text-blue-600">Haute Savoie Plomberie</span> ?
+                Pourquoi choisir <span className="text-blue-600">LC 74 Plomberie</span> ?
               </h2>
               
               <div className="space-y-6">
@@ -338,7 +338,7 @@ const App: React.FC = () => {
                  </Button>
                </a>
                <p className="text-center mt-6 text-sm text-gray-400">
-                 Intervention 6j/7 - 8h/20h
+                 Intervention 6j/7 - 7h/21h
                </p>
             </div>
           </div>
@@ -451,7 +451,7 @@ const App: React.FC = () => {
                   </div>
                   <div>
                     <h4 className="font-bold text-lg mb-1">Email</h4>
-                    <p className="text-gray-400">contact@hsplomberie.fr</p>
+                    <p className="text-gray-400">lc74plomberie@gmail.com</p>
                   </div>
                 </div>
               </div>
@@ -477,11 +477,11 @@ const App: React.FC = () => {
                 <ShieldCheck className="text-white w-5 h-5" />
               </div>
               <span className="text-lg font-extrabold tracking-tight">
-                HSP <span className="text-blue-600 font-normal">Plomberie</span>
+                LC74 <span className="text-blue-600 font-normal">Plomberie</span>
               </span>
             </div>
             <p className="text-gray-500 text-sm">
-              © {new Date().getFullYear()} Haute SavoiePlomberie by Arthur Ballandras. Tous droits réservés. Mentions Légales.
+              © {new Date().getFullYear()}LC 74 Plomberie. Tous droits réservés. Mentions Légales.
             </p>
           </div>
         </div>
